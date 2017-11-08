@@ -1,0 +1,385 @@
+.hide {
+  display: none !important; }
+
+body {
+  background-color: #f1f5f6; }
+
+header {
+  background-color: #333949;
+  color: #ffffff;
+  height: 1.65rem;
+  box-sizing: border-box;
+  padding: 0.46rem 0.74rem 0.64rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100; }
+  header #head span {
+    float: left;
+    margin-top: 0.2rem;
+    font: 0.38rem/0.38rem ''; }
+  header #head i {
+    float: left;
+    display: block;
+    height: 0.54rem;
+    width: 0.54rem; }
+  header #head .search {
+    background: url("../imgs/searchresults48.png") no-repeat center bottom;
+    background-size: 85% 85%;
+    margin-left: 5.05rem; }
+  header #head .message {
+    background: url("../imgs/img_head_no_msg.png") no-repeat center bottom;
+    background-size: 75% 75%;
+    margin-left: 0.9rem; }
+  header #head .shopcart {
+    background: url("../imgs/regular_members_icon2.png") no-repeat center bottom;
+    background-size: 70% 70%;
+    margin-left: 0.9rem; }
+
+#banner {
+  height: 3.6rem;
+  margin-top: 1.65rem;
+  width: 100%; }
+  #banner ul li a img {
+    width: 100%;
+    height: 3.6rem;
+    display: block; }
+
+#nav {
+  background-color: #ffffff; }
+  #nav ul {
+    padding: 0.36rem 0.57rem 0.16rem;
+    box-sizing: border-box;
+    height: 2.4rem;
+    display: flex;
+    justify-content: space-between; }
+    #nav ul li img {
+      display: block;
+      height: 1.02rem;
+      width: 1.02rem; }
+    #nav ul li span {
+      text-align: center;
+      display: block;
+      font: 0.32rem/0.86rem ""; }
+
+#kechengtuijian .title {
+  margin-top: 0.48rem;
+  padding: 0.3rem  0.5rem 0 4.3rem;
+  height: 0.96rem; }
+  #kechengtuijian .title i {
+    float: left;
+    display: block;
+    height: 0.36rem;
+    width: 0.36rem;
+    background: url("../imgs/icon_recommend_course.png") no-repeat center;
+    background-size: 100%; }
+  #kechengtuijian .title span {
+    float: left;
+    margin-left: 0.24rem;
+    font: 700  0.36rem/0.36rem "";
+    color: #6c7175; }
+  #kechengtuijian .title b {
+    float: right;
+    font: 600  0.30rem/0.36rem "";
+    color: #b7bcbf; }
+#kechengtuijian ul {
+  padding: 0.33rem 0.57rem 0;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap; }
+  #kechengtuijian ul li {
+    height: 4.2rem;
+    width: 4.62rem;
+    background-color: #ffffff;
+    margin-bottom: 0.33rem; }
+    #kechengtuijian ul li a .java .fourup {
+      background-color: #f97398; }
+    #kechengtuijian ul li a .linux .fourup {
+      background-color: #b169bf; }
+    #kechengtuijian ul li a .ios .fourup {
+      background-color: #04bebd; }
+    #kechengtuijian ul li a .php .fourup {
+      background-color: #ce72e1; }
+    #kechengtuijian ul li a .four .fourup {
+      height: 1.02rem; }
+      #kechengtuijian ul li a .four .fourup span {
+        font: 0.22rem/1.02rem "";
+        color: #ffffff;
+        margin-left: 0.3rem; }
+    #kechengtuijian ul li a .four .fourdown {
+      height: 3.2rem;
+      overflow: hidden;
+      position: relative; }
+      #kechengtuijian ul li a .four .fourdown h5 {
+        box-sizing: border-box;
+        padding: 0.18rem 0.65rem 0.18rem 0.32rem;
+        font: 700 0.28rem/0.38rem ""; }
+      #kechengtuijian ul li a .four .fourdown p {
+        padding: 0rem 0.3rem;
+        box-sizing: border-box;
+        font: 700 0.22rem/0.32rem "";
+        color: #b6b6b6; }
+      #kechengtuijian ul li a .four .fourdown span {
+        display: block;
+        position: absolute;
+        bottom: 0.54rem;
+        left: 0.3rem;
+        font: 700 0.22rem/0.32rem "";
+        color: #707579; }
+
+#zhiyelujing {
+  background-color: #ffffff;
+  overflow: hidden; }
+  #zhiyelujing .title {
+    margin-top: 0.48rem;
+    padding: 0.3rem  0.5rem 0 4.3rem;
+    height: 0.96rem; }
+    #zhiyelujing .title i {
+      float: left;
+      display: block;
+      height: 0.36rem;
+      width: 0.36rem;
+      background: url("../imgs/icon_recommend_course.png") no-repeat center;
+      background-size: 100%; }
+    #zhiyelujing .title span {
+      float: left;
+      margin-left: 0.24rem;
+      font: 700  0.36rem/0.36rem "";
+      color: #6c7175; }
+    #zhiyelujing .title b {
+      float: right;
+      font: 600  0.30rem/0.36rem "";
+      color: #b7bcbf; }
+  #zhiyelujing ul li a {
+    display: block;
+    box-sizing: border-box;
+    padding: 0 0.48rem;
+    height: 2.4rem;
+    margin-bottom: 0.5rem; }
+    #zhiyelujing ul li a img {
+      float: left;
+      display: block;
+      height: 2.4rem;
+      width: 2.7rem; }
+    #zhiyelujing ul li a .zhiyeright {
+      height: 2.4rem;
+      width: 6.76rem;
+      padding-right: 0.25rem;
+      float: right;
+      position: relative; }
+      #zhiyelujing ul li a .zhiyeright h6 {
+        font: 600 0.34rem/0.34rem "";
+        margin-top: 0.23rem; }
+      #zhiyelujing ul li a .zhiyeright p {
+        margin-top: 0.2rem;
+        font: 600 0.22rem/0.32rem "";
+        color: #b8bcbd; }
+      #zhiyelujing ul li a .zhiyeright div {
+        font: 600 0.22rem/0.24rem "";
+        position: absolute;
+        bottom: 0.25rem; }
+        #zhiyelujing ul li a .zhiyeright div span {
+          color: #74797c; }
+        #zhiyelujing ul li a .zhiyeright div b {
+          color: #ff2b53;
+          font-weight: 800; }
+
+#oneadv {
+  padding: 0.57rem; }
+  #oneadv img {
+    display: block;
+    height: 2.28rem;
+    width: 100%; }
+
+#shizhantuijian .title {
+  margin-top: 0.48rem;
+  padding: 0.3rem  0.5rem 0 4.3rem;
+  height: 0.96rem; }
+  #shizhantuijian .title i {
+    float: left;
+    display: block;
+    height: 0.36rem;
+    width: 0.36rem;
+    background: url("../imgs/icon_recommend_course.png") no-repeat center;
+    background-size: 100%; }
+  #shizhantuijian .title span {
+    float: left;
+    margin-left: 0.24rem;
+    font: 700  0.36rem/0.36rem "";
+    color: #6c7175; }
+  #shizhantuijian .title b {
+    float: right;
+    font: 600  0.30rem/0.36rem "";
+    color: #b7bcbf; }
+#shizhantuijian ul {
+  padding: 0.33rem 0.57rem 0;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap; }
+  #shizhantuijian ul li {
+    height: 4.2rem;
+    width: 4.62rem;
+    background-color: #ffffff;
+    margin-bottom: 0.33rem; }
+    #shizhantuijian ul li a .java .fourup {
+      background-color: #f97398; }
+    #shizhantuijian ul li a .linux .fourup {
+      background-color: #b169bf; }
+    #shizhantuijian ul li a .ios .fourup {
+      background-color: #04bebd; }
+    #shizhantuijian ul li a .php .fourup {
+      background-color: #ce72e1; }
+    #shizhantuijian ul li a .vue .fourup {
+      background-color: #f39000; }
+    #shizhantuijian ul li a .js .fourup {
+      background-color: #d073e5; }
+    #shizhantuijian ul li a .four .fourup {
+      height: 1.02rem; }
+      #shizhantuijian ul li a .four .fourup span {
+        font: 0.22rem/1.02rem "";
+        color: #ffffff;
+        margin-left: 0.3rem; }
+    #shizhantuijian ul li a .four .fourdown {
+      height: 3.2rem;
+      overflow: hidden;
+      position: relative; }
+      #shizhantuijian ul li a .four .fourdown h5 {
+        box-sizing: border-box;
+        padding: 0.18rem 0.65rem 0.18rem 0.32rem;
+        font: 700 0.28rem/0.38rem ""; }
+      #shizhantuijian ul li a .four .fourdown p {
+        padding: 0rem 0.3rem;
+        box-sizing: border-box;
+        font: 700 0.22rem/0.32rem "";
+        color: #b6b6b6; }
+      #shizhantuijian ul li a .four .fourdown span {
+        display: block;
+        position: absolute;
+        bottom: 0.54rem;
+        left: 0.3rem;
+        font: 700 0.22rem/0.32rem "";
+        color: #707579; }
+
+#famousteacher h3 {
+  text-align: center;
+  font: 800 0.36rem/1.5rem "";
+  color: #717777; }
+#famousteacher div ul {
+  padding: 0 0.35rem; }
+  #famousteacher div ul li {
+    height: 3.3rem;
+    width: 3.6rem;
+    margin: 0 0.15rem; }
+    #famousteacher div ul li a {
+      border-radius: 0.2rem;
+      display: block;
+      height: 3.3rem;
+      width: 3.6rem;
+      padding: 0.35rem 1.05rem;
+      box-sizing: border-box;
+      text-align: center;
+      background-color: #ffffff; }
+      #famousteacher div ul li a img {
+        display: block;
+        height: 1.5rem;
+        width: 1.5rem;
+        border-radius: 50%; }
+      #famousteacher div ul li a span {
+        font: 800 0.3rem/0.3rem ""; }
+      #famousteacher div ul li a b {
+        color: #bbbcbe;
+        font: 600 0.24rem/0.24rem ""; }
+
+#gessyou {
+  margin-bottom: 1.5rem; }
+  #gessyou .title {
+    margin-top: 0.48rem;
+    padding: 0.3rem  0.5rem 0 4.3rem;
+    height: 0.96rem; }
+    #gessyou .title i {
+      float: left;
+      display: block;
+      height: 0.36rem;
+      width: 0.36rem;
+      background: url("../imgs/icon_recommend_course.png") no-repeat center;
+      background-size: 100%; }
+    #gessyou .title span {
+      float: left;
+      margin-left: 0.24rem;
+      font: 700  0.36rem/0.36rem "";
+      color: #6c7175; }
+    #gessyou .title b {
+      float: right;
+      font: 600  0.30rem/0.36rem "";
+      color: #b7bcbf; }
+  #gessyou ul {
+    padding: 0.33rem 0.57rem 0;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap; }
+    #gessyou ul li {
+      height: 4.2rem;
+      width: 4.62rem;
+      background-color: #ffffff;
+      margin-bottom: 0.33rem; }
+      #gessyou ul li a .java .fourup {
+        background-color: #f97398; }
+      #gessyou ul li a .linux .fourup {
+        background-color: #b169bf; }
+      #gessyou ul li a .ios .fourup {
+        background-color: #04bebd; }
+      #gessyou ul li a .php .fourup {
+        background-color: #ce72e1; }
+      #gessyou ul li a .vue .fourup {
+        background-color: #f39000; }
+      #gessyou ul li a .js .fourup {
+        background-color: #d073e5; }
+      #gessyou ul li a .four .fourup {
+        height: 1.02rem; }
+        #gessyou ul li a .four .fourup span {
+          font: 0.22rem/1.02rem "";
+          color: #ffffff;
+          margin-left: 0.3rem; }
+      #gessyou ul li a .four .fourdown {
+        height: 3.2rem;
+        overflow: hidden;
+        position: relative; }
+        #gessyou ul li a .four .fourdown h5 {
+          box-sizing: border-box;
+          padding: 0.18rem 0.65rem 0.18rem 0.32rem;
+          font: 700 0.28rem/0.38rem ""; }
+        #gessyou ul li a .four .fourdown p {
+          padding: 0rem 0.3rem;
+          box-sizing: border-box;
+          font: 700 0.22rem/0.32rem "";
+          color: #b6b6b6; }
+        #gessyou ul li a .four .fourdown span {
+          display: block;
+          position: absolute;
+          bottom: 0.54rem;
+          left: 0.3rem;
+          font: 700 0.22rem/0.32rem "";
+          color: #707579; }
+
+footer ul {
+  height: 1.5rem;
+  background-color: #ffffff;
+  padding: 0.2rem 1.02rem 0.15rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0px 5px #a1a1a1;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 100; }
+  footer ul li a img {
+    height: 0.62rem;
+    width: 0.66rem; }
+  footer ul li a span {
+    display: block;
+    text-align: center;
+    font: 0.24rem/0.24rem "";
+    margin-top: 0.28rem; }
+
+/*# sourceMappingURL=index.css.map */
